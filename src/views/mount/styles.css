@@ -1,0 +1,25 @@
+.select-and-continue {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1em;
+    width: 95%;
+    margin-right: 0.1em;
+}
+
+.select-and-continue select {
+    width: 65%;
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 0.5em;
+    background-color: transparent;
+    margin-bottom:1.35em;    
+}
+
+.select-and-continue select::selection {
+    color: #0000;
+}
+
+.select-and-continue select option {
+    color: #0000;
+}

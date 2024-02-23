@@ -1,0 +1,112 @@
+.ticket-container {
+    height: 100vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 65%, #2cb46c 80%);
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin:0 auto;
+    position: relative;
+    top:20%;
+}
+
+.box {
+    background-color: #fff;
+    box-shadow: 0 0 20px #ccc;
+    margin: 0.5em 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.left_side h1 {
+    font-size:1.1em;
+    font-weight: 600;
+}
+
+.left_side p {
+    color:#2cb46c;
+    font-weight: bold;
+    font-size:14px;
+}
+
+.left_side span {
+    font-weight: 400;
+    font-size:13px;
+}
+
+.left_side {
+    width: 70%;
+    margin:1em;
+}
+
+.right_side .rounded_initials {
+    border:2px solid #2cb46c;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin:1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2cb46c;
+    font-weight: bold;
+}
+
+.right_side .rounded_initials p {
+    position: relative;
+    left: 7px;
+    top:1px;
+}
+
+.right_side .rounded_initials .rounded-check {
+    background-color: #2cb46c;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    position: relative;
+    top:15px;
+}
+
+.left_side .rounded_initials img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #c1c1c1;
+    padding:0.5em;
+    border-radius: 50%;
+
+}
+
+.left_side .rounded_initials {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left_side .rounded_initials p {
+    color: inherit;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+}
+
+.ticket-buttons {
+    position: relative;
+    top: 20%;
+    margin-bottom: 1em;
+}
+
+.ticket-buttons p {
+    text-align: center;
+    color: #389FE3
+}

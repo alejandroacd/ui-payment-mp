@@ -1,0 +1,38 @@
+.input-mount-container-wrapper {
+    position:relative;
+    top:150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-mount-container {
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.input-mount {
+    outline:0;
+    display: inline-block;
+    background:transparent;
+    font-size: 2.5em;
+    width: 105px;
+    border:none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.available-credit {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.available-credit p {
+    font-size:12px;
+    color: #a3a3a3;
+}
