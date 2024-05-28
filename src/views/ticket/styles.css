@@ -14,11 +14,160 @@
     top:20%;
 }
 
+.check-price {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    position:absolute; 
+   padding:0;
+   bottom:0;
+}
+
+.box-checkout .image_mp {
+    width:17% !important; 
+    display:flex;
+    height:50px;
+    margin-right:1em;
+    border: 0.00000000000000000001px solid #ccc;
+    border-radius: 50%;
+    justify-content:center;
+}
+.ad-banner {
+    background:#e87233;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ad-banner .text-and-promo {
+    display:flex;
+    width: 70%;
+    align-items:center;
+}
+
+.ad-banner .text-and-promo img {
+    border-radius: 10px;
+}
+
+.box-checkout .qr-image {
+    border:0.1px solid #ccc;
+    width:17%;
+    border-radius:50%;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box-checkout .transaction-date {
+    font-size:11px;
+    display:flex;
+    align-items:center;
+    gap:0em;
+}
+.box-checkout .transaction-information {
+    width: 80%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.box-checkout .transaction-information p {
+    margin:0.5em;
+}
+
+.box-checkout .transaction-information .transaction-id {
+    font-weight:bold;
+    letter-spacing: -0.1px;
+}
+
+.ad-banner .image-of-promo {
+    width: 30%;
+    height: 80px;
+    background-image: url('/lavaropaejemplo.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.ad-banner .text-and-promo .text-promo {
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+    margin-left:0.5em;
+} 
+.ad-banner .text-and-promo .first_line {
+    margin:0.5em;
+    color:white;
+    font-size:10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing:1px
+}
+.ad-banner .text-and-promo .second_line {
+    margin:0.5em;
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.ad-banner .text-and-promo .third_line {
+    margin:0.5em;
+    color:white;
+    font-size:9px;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.box-checkout {
+    border-radius:10px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+    padding:0.7em;
+}
+
+.box-checkout .rounded_initials img {
+    border-radius: 50%;
+    margin:0.7em;
+    display:flex;
+    width:30px;
+
+}
+
+.box-checkout .amount-and-coming {
+    display:flex;
+    flex-direction: column;
+    width:70%;
+}
+
+.box-checkout .amount-and-coming h1 {
+    margin: 0 !important;
+    font-size:1.5em;
+}
+
+.box-checkout .amount-and-coming p {
+    font-size:14px;
+    margin:0 !important;
+}
+.count {
+    border:1px solid blue;
+    height:70px;
+}
+
+.check-price .price_checkout {
+    text-align: start !important;
+    margin-left:1em;
+    font-size:1.2em;
+    font-weigt:bold;
+}
+
 .box {
     background-color: #fff;
     box-shadow: 0 0 20px #ccc;
     margin: 0.5em 0;
     border-radius: 5px;
+    position:relative;
     display: flex;
     flex-direction: row;
  
@@ -42,7 +191,7 @@
 
 .left_side {
     width: 70%;
-    margin:1em;
+    margin:0.5em;
 }
 
 .right_side .rounded_initials {
@@ -105,7 +254,9 @@
     top: 20%;
     margin-bottom: 1em;
 }
-
+.ticket-buttons button {
+    visibility:hidden
+}
 .ticket-buttons p {
     text-align: center;
     color: #389FE3
