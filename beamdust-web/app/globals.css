@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #000034;
+  --cards: 3;
+  --cardHeight:65vh;
+  --cardTopPadding: 1.5em;
+  --cardMargin: 1em;
+  --red: #FF0000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: #FFFFFF;
+}
+
+
+
+html {
+  @apply w-full
+}
