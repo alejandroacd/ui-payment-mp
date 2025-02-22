@@ -4,6 +4,7 @@ import { IoCheckmarkSharp } from "react-icons/io5";
 import Button from '../../components/button';
 import Clock from "../../components/Clock";
 import { usePayment } from "../../context/ContextPayment";
+import TransactionDate from "../../components/transaction-date";
 const Ticket = () => {
     const { name, bank, cvu, total} = usePayment()
     const nameInitials =  name?.split(' ').map((n) => n[0])
@@ -61,7 +62,7 @@ const Ticket = () => {
             </div>
             <div className="transaction-information">
                 <p className="transaction-id">Operación #77747839892374</p>
-                <p className="transaction-date"> 2 de mayo de 2024 a las <Clock /> </p>
+                <TransactionDate />
             </div>
            </div>
            <div className="box-checkout ad-banner" style={{marginTop:'2em'}}>

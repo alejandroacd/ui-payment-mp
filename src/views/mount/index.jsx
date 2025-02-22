@@ -17,7 +17,7 @@ const Mount = () => {
                     </option>
                 </select>
                 <Link to='/checkout'>
-                <Button title={'Continuar'} width={'30%'} />
+                <Button title={'Continuar'} />
                 </Link>
             </div>
         </div>

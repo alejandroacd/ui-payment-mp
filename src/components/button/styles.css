@@ -8,8 +8,6 @@ button {
     padding:1em;
     border-radius: 5px;
     cursor:pointer;
-    position:absolute;
-    bottom:0;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     margin-left: 1.1em;
 }

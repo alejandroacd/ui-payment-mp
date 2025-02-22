@@ -3,7 +3,7 @@ import './styles.css'
 const Button = ({width, title, marginLeft}) => {
     const style = {
         width: width,
-        marginLeft: marginLeft
+        marginLeft: marginLeft,
     }
     return (
          <button style={style} type="submit" className='button'>{title}</button>

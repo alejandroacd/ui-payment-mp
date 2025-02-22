@@ -11,7 +11,6 @@ const InputMount = () => {
             <span>$</span>
             <input
                 onChange={(e) => setTotal(e.target.value)}
-                maxLength={5}
                 autoFocus
                 defaultValue={input}
                 className='input-mount' 
